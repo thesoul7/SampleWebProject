@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.testscripts.TestScript1
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec <<< FAILURE!
+com.testscripts.TestScript1.testScript1()  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.Error: Unresolved compilation problem: 
+	Test cannot be resolved to a type
+
+	at com.testscripts.TestScript1.testScript1(TestScript1.java:11)
+
