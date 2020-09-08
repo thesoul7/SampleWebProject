@@ -7,7 +7,9 @@ import com.generic.BaseClass;
 import com.pomclass.CreateTask;
 
 public class TestScript1 extends BaseClass {
-	
+	/*
+	@author Raghu
+	*/
 	@Test
 	public void creatingTask() {
 		String customerName = "Big Bang Company";
@@ -15,6 +17,7 @@ public class TestScript1 extends BaseClass {
 		String taskName ="Contact";
 		CreateTask ct = new CreateTask(driver);
 		ct.creatingTask(driver, customerName, projectName, taskName);
+		System.out.println(ct);
 	}
 	 
 }
